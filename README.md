@@ -8,28 +8,9 @@ El frontend está desarrollado con **HTML**, **CSS** y **TailwindCSS**.
 
 ## 🛠️ Tecnologías utilizadas
 
-- **Java** (Backend)
-- **Servlets / JSP** (MVC)
+- **Java + Spring** (Backend)
 - **HTML + TailwindCSS** (Frontend)
 - **OMDb API** (Proveedor de datos de películas)
-
----
-
-## 📁 Estructura del proyecto (resumen)
-
-AXELFLIX/
-├── src/
-│ ├── controller/
-│ ├── model/
-│ └── view/
-├── webapp/
-│ ├── index.jsp
-│ └── resultados.jsp
-├── static/
-│ └── tailwind.css
-└── config.properties (o archivo .env)
-
-yaml
 
 ---
 
@@ -48,9 +29,8 @@ Regístrate con tu correo
 Recibirás una API Key gratuita en tu email
 
 3. Configura tus variables de entorno
-Agrega la clave y la URL base en el archivo config.properties o .env (según cómo lo implemente tu app):
+Agrega la clave y la URL base en la clase Principal en la carpeta Server.
 
-properties
 Copiar
 Editar
 API_KEY=tu_clave_recibida
@@ -64,14 +44,14 @@ Asegúrate de tener un servidor como Apache Tomcat configurado
 
 Ejecuta o despliega el proyecto
 
-Accede a http://localhost:8080/axelflix/
+Ve a Visual Studio Code e instala la extension live Server, una extensión
+que te permitirá ver los cambios de tu proyecto en tiempo real cada vez que guardes.
 
-🧪 Uso
-En la pantalla principal (index.jsp), introduce el nombre de una película o serie
+Ve al archivo index.html y en la zona del código da doble click.
+Luego ejecutar con liveserver
 
-Haz clic en "Buscar"
+Y listo!
 
-Se mostrarán los resultados en una nueva vista (resultados.jsp), estilizados con TailwindCSS
 
 ✨ Créditos
 Proyecto creado por Axel, 2025
