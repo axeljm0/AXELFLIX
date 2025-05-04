@@ -15,8 +15,8 @@ import java.util.stream.Collectors;
 public class Principal {
     private Scanner teclado = new Scanner(System.in);
     private ConsumoAPI consumoApi = new ConsumoAPI();
-    private final String URL_BASE = "https://www.omdbapi.com/?i=tt3896198";
-    private final String API_KEY = "685de6f0";
+    private final String URL_BASE = "Your OMDB API URL";
+    private final String API_KEY = "Your OMDB API key";
     private ConvierteDatos conversor = new ConvierteDatos();
     private List<DatosSerie> datosSeries = new ArrayList<>();
     private SerieRepository repositorio;
