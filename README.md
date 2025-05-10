@@ -60,5 +60,3 @@ Datos proporcionados por OMDb API
 
 📄 Licencia
 Copiright © 2025 - Axel
-
-¿Te gustaría que te incluya una pequeña demo en GIF o imagen para mostrar la app visualmente en el README también?
